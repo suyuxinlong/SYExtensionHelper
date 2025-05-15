@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SYExtensionHelper.h"
 
 @interface AppDelegate ()
 

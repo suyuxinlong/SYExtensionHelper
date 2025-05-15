@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37668BE32DD5D87A0061DFAE /* UIViewController+SYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37668BE22DD5D87A0061DFAE /* UIViewController+SYExtension.m */; };
+		37668BE62DD5D93B0061DFAE /* UIView+JHRedDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 37668BE52DD5D93B0061DFAE /* UIView+JHRedDot.m */; };
+		37668BEA2DD5D95D0061DFAE /* NSError+SYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37668BE92DD5D95D0061DFAE /* NSError+SYExtension.m */; };
+		37668BED2DD5D9C10061DFAE /* NSString+SYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37668BEC2DD5D9C10061DFAE /* NSString+SYExtension.m */; };
+		37668BF12DD5DA9E0061DFAE /* UIAlertController+SYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37668BF02DD5DA9E0061DFAE /* UIAlertController+SYExtension.m */; };
 		37CF3FB02DCDF53600CC1562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3FA32DCDF53600CC1562 /* AppDelegate.m */; };
 		37CF3FB12DCDF53600CC1562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3FA82DCDF53600CC1562 /* main.m */; };
 		37CF3FB22DCDF53600CC1562 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3FAC2DCDF53600CC1562 /* SceneDelegate.m */; };
@@ -27,6 +32,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37668BDF2DD5D7DD0061DFAE /* SYExtensionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYExtensionHelper.h; sourceTree = "<group>"; };
+		37668BE12DD5D87A0061DFAE /* UIViewController+SYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SYExtension.h"; sourceTree = "<group>"; };
+		37668BE22DD5D87A0061DFAE /* UIViewController+SYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SYExtension.m"; sourceTree = "<group>"; };
+		37668BE42DD5D93B0061DFAE /* UIView+JHRedDot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JHRedDot.h"; sourceTree = "<group>"; };
+		37668BE52DD5D93B0061DFAE /* UIView+JHRedDot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHRedDot.m"; sourceTree = "<group>"; };
+		37668BE82DD5D95D0061DFAE /* NSError+SYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+SYExtension.h"; sourceTree = "<group>"; };
+		37668BE92DD5D95D0061DFAE /* NSError+SYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+SYExtension.m"; sourceTree = "<group>"; };
+		37668BEB2DD5D9C10061DFAE /* NSString+SYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SYExtension.h"; sourceTree = "<group>"; };
+		37668BEC2DD5D9C10061DFAE /* NSString+SYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYExtension.m"; sourceTree = "<group>"; };
+		37668BEF2DD5DA9E0061DFAE /* UIAlertController+SYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+SYExtension.h"; sourceTree = "<group>"; };
+		37668BF02DD5DA9E0061DFAE /* UIAlertController+SYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+SYExtension.m"; sourceTree = "<group>"; };
 		37CF3F852DCDF52B00CC1562 /* SYExtensionHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYExtensionHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CF3FA22DCDF53600CC1562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37CF3FA32DCDF53600CC1562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +88,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37668BDE2DD5D7940061DFAE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				37CF3FBC2DCDF60F00CC1562 /* NSArray */,
+				37CF3FBA2DCDF5EF00CC1562 /* NSDate */,
+				37CF3FC02DCDF74000CC1562 /* NSDictionary */,
+				37668BE72DD5D94B0061DFAE /* NSError */,
+				37CF3FB92DCDF5E500CC1562 /* NSString */,
+				37668BDF2DD5D7DD0061DFAE /* SYExtensionHelper.h */,
+				37668BEE2DD5DA880061DFAE /* UIAlertController */,
+				37CF3FC22DCDF76300CC1562 /* UIButton */,
+				37CF3FBB2DCDF5F700CC1562 /* UIColor */,
+				37CF3FC12DCDF75300CC1562 /* UIDevice */,
+				37CF3FB82DCDF5DD00CC1562 /* UIImage */,
+				37CF3FC52DCDF7C700CC1562 /* UIImageView */,
+				37CF3FC32DCDF77D00CC1562 /* UIView */,
+				37668BE02DD5D8650061DFAE /* UIViewController */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		37668BE02DD5D8650061DFAE /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				37668BE12DD5D87A0061DFAE /* UIViewController+SYExtension.h */,
+				37668BE22DD5D87A0061DFAE /* UIViewController+SYExtension.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		37668BE72DD5D94B0061DFAE /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				37668BE82DD5D95D0061DFAE /* NSError+SYExtension.h */,
+				37668BE92DD5D95D0061DFAE /* NSError+SYExtension.m */,
+			);
+			path = NSError;
+			sourceTree = "<group>";
+		};
+		37668BEE2DD5DA880061DFAE /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				37668BEF2DD5DA9E0061DFAE /* UIAlertController+SYExtension.h */,
+				37668BF02DD5DA9E0061DFAE /* UIAlertController+SYExtension.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
 		37CF3F7C2DCDF52B00CC1562 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +155,7 @@
 		37CF3FAF2DCDF53600CC1562 /* SYExtensionHelperDemo */ = {
 			isa = PBXGroup;
 			children = (
+				37668BDE2DD5D7940061DFAE /* Extension */,
 				37CF3FA22DCDF53600CC1562 /* AppDelegate.h */,
 				37CF3FA32DCDF53600CC1562 /* AppDelegate.m */,
 				37CF3FAD2DCDF53600CC1562 /* ViewController.h */,
@@ -102,16 +167,6 @@
 				37CF3FA72DCDF53600CC1562 /* LaunchScreen.storyboard */,
 				37CF3FA82DCDF53600CC1562 /* main.m */,
 				37CF3FAA2DCDF53600CC1562 /* Main.storyboard */,
-				37CF3FBC2DCDF60F00CC1562 /* NSArray */,
-				37CF3FBA2DCDF5EF00CC1562 /* NSDate */,
-				37CF3FC02DCDF74000CC1562 /* NSDictionary */,
-				37CF3FB92DCDF5E500CC1562 /* NSString */,
-				37CF3FC22DCDF76300CC1562 /* UIButton */,
-				37CF3FBB2DCDF5F700CC1562 /* UIColor */,
-				37CF3FC12DCDF75300CC1562 /* UIDevice */,
-				37CF3FB82DCDF5DD00CC1562 /* UIImage */,
-				37CF3FC52DCDF7C700CC1562 /* UIImageView */,
-				37CF3FC32DCDF77D00CC1562 /* UIView */,
 			);
 			path = SYExtensionHelperDemo;
 			sourceTree = "<group>";
@@ -128,6 +183,8 @@
 		37CF3FB92DCDF5E500CC1562 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				37668BEB2DD5D9C10061DFAE /* NSString+SYExtension.h */,
+				37668BEC2DD5D9C10061DFAE /* NSString+SYExtension.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -191,6 +248,8 @@
 		37CF3FC32DCDF77D00CC1562 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				37668BE42DD5D93B0061DFAE /* UIView+JHRedDot.h */,
+				37668BE52DD5D93B0061DFAE /* UIView+JHRedDot.m */,
 				37CF3FC92DCE071000CC1562 /* UIView+SYExtension.h */,
 				37CF3FCA2DCE071000CC1562 /* UIView+SYExtension.m */,
 			);
@@ -283,7 +342,11 @@
 				37CF3FD12DCE084600CC1562 /* UIButton+SYExtension.m in Sources */,
 				37CF3FD42DCE091D00CC1562 /* NSDate+Time.m in Sources */,
 				37CF3FB02DCDF53600CC1562 /* AppDelegate.m in Sources */,
+				37668BE62DD5D93B0061DFAE /* UIView+JHRedDot.m in Sources */,
+				37668BF12DD5DA9E0061DFAE /* UIAlertController+SYExtension.m in Sources */,
+				37668BED2DD5D9C10061DFAE /* NSString+SYExtension.m in Sources */,
 				37CF3FE32DD18C0700CC1562 /* NSDictionary+SYExtension.m in Sources */,
+				37668BE32DD5D87A0061DFAE /* UIViewController+SYExtension.m in Sources */,
 				37CF3FCE2DCE073D00CC1562 /* UIColor+SYExtension.m in Sources */,
 				37CF3FB12DCDF53600CC1562 /* main.m in Sources */,
 				37CF3FB22DCDF53600CC1562 /* SceneDelegate.m in Sources */,
@@ -292,6 +355,7 @@
 				37CF3FB32DCDF53600CC1562 /* ViewController.m in Sources */,
 				37CF3FDD2DD18A9600CC1562 /* UIImageView+SYExtension.m in Sources */,
 				37CF3FC82DCDF81100CC1562 /* NSArray+SYExtension.m in Sources */,
+				37668BEA2DD5D95D0061DFAE /* NSError+SYExtension.m in Sources */,
 				37CF3FBF2DCDF64100CC1562 /* UIImage+SYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
