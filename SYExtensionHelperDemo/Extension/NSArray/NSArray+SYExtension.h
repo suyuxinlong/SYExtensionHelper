@@ -17,6 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 数组转json
 @property (nonatomic, copy, readonly) NSString *json;
 
+/// 数组中元素是字典的，判断字典中是否包含关键词
+/// - Parameter key: 关键词
+- (BOOL)containsKey:(NSString *)key;
+
 @end
 
 NS_ASSUME_NONNULL_END

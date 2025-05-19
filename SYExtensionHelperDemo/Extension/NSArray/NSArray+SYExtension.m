@@ -32,6 +32,16 @@
     }
 }
 
+- (BOOL)containsKey:(NSString *)key {
+    __block BOOL containsKey = NO;
+    [self enumerateObjectsUsingBlock:^(NSDictionary *dict, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([[dict allKeys] containsKey:key]) {
+            containsKey = YES;
+            *stop = YES;
+        }
+    }];
+    return containsKey;
+}
 #pragma mark - 数组防止崩溃
 //+ (void)load {
 //    static dispatch_once_t onceToken;

@@ -19,7 +19,7 @@
 - (void)setMessage:(NSString *)message {
     self.message = message;
 }
-+ (NSError *)errorWithCode:(NSInteger)code errorMessage:(NSString *)errMsg {
++ (NSError *)errorWithCode:(NSInteger)code message:(NSString *)errMsg {
     NSError *error = [[NSError alloc] initWithDomain:NSCocoaErrorDomain code:code userInfo:@{NSLocalizedDescriptionKey:errMsg}];
     return error;
 }

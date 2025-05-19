@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameters:
 ///   - code: 错误code
 ///   - errMsg: 错误内容
-+ (NSError *)errorWithCode:(NSInteger)code errorMessage:(NSString *)errMsg;
++ (NSError *)errorWithCode:(NSInteger)code message:(NSString *)errMsg;
 
 @end
 
